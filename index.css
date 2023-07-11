@@ -1,0 +1,16 @@
+.search-form {
+    border: salmon solid 3px
+}
+
+.search-result-item {
+    display: flex;
+}
+
+.search-result-item__picture {
+    width: 300px
+}
+
+.search-result-item__data {
+    flex-grow: 1;
+
+}
