@@ -6,5 +6,5 @@
     "esModuleInterop": true,
     "moduleResolution": "node"
   },
-  "include": ["src/**/*.tsx", "src/hooks.ts"]
+  "include": ["src/**/*.*"]
 }

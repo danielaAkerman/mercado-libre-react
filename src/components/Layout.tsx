@@ -5,7 +5,7 @@ import { SearchForm } from "./SearchForm";
 function Layout() {
   return (
     <div>
-      <header style={{ backgroundColor: "yellow" }}>
+      <header>
         <SearchForm />
       </header>
       <Outlet />
