@@ -1,7 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { useSearchResults } from "../hooks";
+import { useSearchResults } from "../../hooks";
 import css from "./searchForm.css";
+import { MainButton } from "../../ui/buttons";
+import { MainTextField } from "../../ui/text-field";
 
 function SearchForm() {
   const navigate = useNavigate();
@@ -13,8 +15,8 @@ function SearchForm() {
   }
   return (
     <form onSubmit={handleSubmit} className={css.root}>
-      <input name="query" />
-      <button>Buscar</button>
+      <MainTextField name="query" />
+      <MainButton>Buscar</MainButton>
       <h4>Resultados: {results.length}</h4>
     </form>
   );

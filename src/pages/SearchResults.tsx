@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { SearchResultItem } from "../components/SearchResultItem";
+import { SearchResultItem } from "../components/searchResultItem";
 import { useSearchResults } from "../hooks";
 
 function SearchResults() {
